@@ -1,14 +1,5 @@
-```shell:shell
-mvn test
-mvn exec:java -Dexec.mainClass="Main"
-
-```
-
-If you use windows
-```pwsh:pwsh
-./run.ps1
-```
-
-```shell:shell
-source run.sh
+# run
+```shell:sh
+javac -d target/classes src/main/java/*.java
+java -cp target/classes Main
 ```
